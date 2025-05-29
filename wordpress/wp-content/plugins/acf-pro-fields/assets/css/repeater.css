@@ -1,0 +1,27 @@
+.acf-pro-repeater {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background: #f9f9f9;
+}
+.acf-pro-repeater-row {
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    background: #fff;
+}
+.acf-pro-repeater-row-header {
+    padding: 10px;
+    background: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.acf-pro-repeater-row-content {
+    padding: 15px;
+}
+.acf-pro-repeater-field {
+    margin-bottom: 15px;
+}
+.acf-pro-repeater-field:last-child {
+    margin-bottom: 0;
+}

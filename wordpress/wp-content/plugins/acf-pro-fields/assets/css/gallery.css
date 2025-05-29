@@ -1,0 +1,34 @@
+.acf-pro-gallery-thumbnails {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 10px;
+    margin-bottom: 15px;
+}
+.acf-pro-gallery-thumbnail {
+    position: relative;
+    aspect-ratio: 1/1;
+}
+.acf-pro-gallery-thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+.acf-pro-gallery-remove {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    border-radius: 0 4px 0 0;
+    cursor: pointer;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1;
+}
+.acf-pro-gallery-remove:hover {
+    background: rgba(0,0,0,0.7);
+}

@@ -1,0 +1,35 @@
+.acf-pro-flexible-content {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background: #f9f9f9;
+}
+.acf-pro-fc-row {
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    background: #fff;
+}
+.acf-pro-fc-row-header {
+    padding: 10px;
+    background: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.acf-pro-fc-row-content {
+    padding: 15px;
+}
+.acf-pro-fc-field {
+    margin-bottom: 15px;
+}
+.acf-pro-fc-field:last-child {
+    margin-bottom: 0;
+}
+.acf-pro-fc-layouts {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+.acf-pro-fc-layout-select {
+    flex: 1;
+}

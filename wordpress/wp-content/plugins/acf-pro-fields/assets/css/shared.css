@@ -1,0 +1,13 @@
+.acf-pro-field {
+    margin-bottom: 15px;
+}
+.acf-pro-field label {
+    font-weight: bold;
+}
+.acf-pro-field .required {
+    color: #c00;
+}
+.acf-pro-field .description {
+    font-size: 12px;
+    color: #666;
+}
