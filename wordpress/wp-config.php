@@ -85,6 +85,9 @@ define( 'LOGGED_IN_SALT',   getenv_docker('WORDPRESS_LOGGED_IN_SALT',   '2b1fec2
 define( 'NONCE_SALT',       getenv_docker('WORDPRESS_NONCE_SALT',       'f2691de5f05e36f4b0cd113761e5e4ac113c739d') );
 // (See also https://wordpress.stackexchange.com/a/152905/199287)
 
+define('FS_METHOD', getenv_docker('WORDPRESS_FS_METHOD', 'direct'));
+
+
 /**#@-*/
 
 /**
